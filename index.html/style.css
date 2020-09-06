@@ -1,0 +1,37 @@
+/*h1{
+ color: brown;
+}
+p{
+    color: green;
+    background-color: blue;
+}
+*/
+
+h2 {
+    /* Can also be overline, line-through, blink, or none.
+    Effects can be combined */
+    text-decoration: underline overline;
+    /* Shadow is specified as an X-offset, a Y-offset, and an optional color */
+    text-shadow: -2px 5px gray;
+    }
+    p {
+    /* Alignment of text within its element,
+    can be left, right, center, or justify */
+    text-align: center;
+    line-height: 30px;
+    word-spacing: 30px;
+    /* Indent the first line */
+    text-indent: 50px;
+    }
+    
+    table, td, th {
+        border: 2px solid black;
+        }
+        table {
+        border-collapse: collapse;
+        } Without border-collapse With border-collapse
+        td {
+        background-color: yellow;
+        text-align: center;
+        width: 30%;
+        }
