@@ -1,0 +1,48 @@
+h1 {
+      color: brown;
+
+
+}
+
+p{
+
+
+    color: green;
+}
+
+
+
+
+p {
+    color: white;
+    background-color: blue;
+    }
+
+    h1{ 
+        font-family:cursive;
+
+    }
+
+    p {
+        /* how large the letters will be drawn */
+        font-size: 14px;
+        /* used to enable/disable bold style */
+        font-weight: bold;
+        /* used to enable/disable italic style */
+        font-style: italic;
+        }
+
+
+        p {
+            /* Alignment of text within its element,
+            can be left, right, center, or justify */
+            text-align: center;
+            line-height: 30px;
+            word-spacing: 3px;
+            /* Indent the first line */
+            text-indent: 50px;
+            }
+
+            body {
+                font-size: 16px;
+                }
