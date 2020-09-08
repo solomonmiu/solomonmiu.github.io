@@ -2,6 +2,7 @@
 
 
 //Question1
+
 function findMax(a) {
     let max = a[a.length - 1];
 
