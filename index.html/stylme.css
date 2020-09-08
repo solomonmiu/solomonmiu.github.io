@@ -1,48 +1,103 @@
-h1 {
-      color: brown;
-
-
+body {
+    font-family:'Open Sans',sans-serif;
+    font-size:13px;
+    background-color: #e9ebee;
+    margin: 0 auto;
 }
 
-p{
-
-
-    color: green;
+ .banner::before {
+/*.banner {*/
+    background-image: url(header-bg.png);
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    content: "";
+    display: block;
+    position: absolute;
+    margin-left: 0;
+    min-width: 100%;
+    min-height: 140px;
+  z-index: -1;
+    opacity: 0.6;
+    background-color: #343a40;
 }
 
+div.header img#avatar {
+    width: 150px;
+    margin: 10px 10px 10px 20px;
+    border-radius: 50%;
+}
 
+div.header h1 {
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
 
+div.content {
+    min-height: 300px;
+    padding: 15px;
+}
 
-p {
+.labs li a {
+    text-decoration: none;
+}
+
+#moodSection ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+#moodSection li {
+    float: left;
+    padding-right: 10px;
+}
+
+#moodSection ul li img {
+    width: 200px;
+}
+
+/* Footer stylesheet */
+.footer {
+    border-top: 1px solid #ddd;
+    overflow: hidden;
+    padding: 15px;
+    background-color: #ddd;
+}
+
+.footer-onBottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer .siteInfo {
+    float: left;
+}
+
+.footer .w3cValidator {
+    float: right;
+    padding-right: 30px;
+}
+
+#menu {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+#menu a {
     color: white;
-    background-color: blue;
-    }
+}
 
-    h1{ 
-        font-family:cursive;
+.fontYellow {
+    color: #fde05b;
+}
 
-    }
-
-    p {
-        /* how large the letters will be drawn */
-        font-size: 14px;
-        /* used to enable/disable bold style */
-        font-weight: bold;
-        /* used to enable/disable italic style */
-        font-style: italic;
-        }
-
-
-        p {
-            /* Alignment of text within its element,
-            can be left, right, center, or justify */
-            text-align: center;
-            line-height: 30px;
-            word-spacing: 3px;
-            /* Indent the first line */
-            text-indent: 50px;
-            }
-
-            body {
-                font-size: 16px;
-                }
+.dropCap {
+    font-family: Georgia;
+    font-size: 20px;
+    line-height: 12px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+}
