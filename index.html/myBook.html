@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Library</title>
+    <!-- my script goes here -->
+    <script src="myScript.js">
+
+    </script>
+</head>
+<body>
+    <!-- user input -->
+    <h1>Library Cataloge</h1>
+    <p>Please enter the following information</p>
+    <p>Title <input type="text" id="title"></p>
+    <p>Author <input type="text" id="author"></p>
+    <p>Library Id <input type="text" id="libId"></p>
+    <button type="button" onclick="mylibrary()">Submit</button>
+    <p></p>
+    <button type="button" id="title" onmouseover="showInfoOnMouseOver('title')" onclick="showInfoOnMouseClick('title')">Title</button>
+    <button type="button" onmouseover="showInfoOnMouseOver('author')" onclick="showInfoOnMouseClick('author')">Author</button>
+    <button type="button" onmouseover="showInfoOnMouseOver('libraryId')" onclick="showInfoOnMouseClick('libraryId')">Library Id</button>
+    <div id="diplayOnMouseOver"></div>
+    <textarea id="diplayOnMouseClick" hidden="true" cols="30" rows="10"></textarea>
+
+</body>
+</html>
